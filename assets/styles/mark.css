@@ -1,0 +1,26 @@
+p{
+    font-family:georgia,garamond,serif;font-size:16px;font-style:italic;
+}
+.error{
+    color: darkturquoise;
+}
+.warning{
+    color: brown;
+}
+.largequote{
+    font-size: 100px;
+}
+.red-list{
+    color: brown;
+    background-color: rgb(187, 80, 80);
+}
+.greenlist{
+    background-color: rgb(89, 226, 124);
+    color: rgb(18, 196, 62);
+}
+li{
+    list-style-type: none;
+}
+.last-item{
+    border-bottom: 100px; 
+}
