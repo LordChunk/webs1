@@ -1,26 +1,22 @@
-p{
-    font-family:georgia,garamond,serif;font-size:16px;font-style:italic;
+.div1{
+    border-style: solid;
+    padding: 5px;
 }
-.error{
-    color: darkturquoise;
+.div2{
+    border-style: solid;
+    margin: 5px;
 }
-.warning{
-    color: brown;
+.p1{
+    border-style: solid;
+    padding: 5px;
 }
-.largequote{
-    font-size: 100px;
+.p2{
+    border-style: solid;
+    margin: 5px;
 }
-.red-list{
-    color: brown;
-    background-color: rgb(187, 80, 80);
+img{
+    border-style: solid;
 }
-.greenlist{
-    background-color: rgb(89, 226, 124);
-    color: rgb(18, 196, 62);
-}
-li{
-    list-style-type: none;
-}
-.last-item{
-    border-bottom: 100px; 
+.photo{
+    border-style: solid;
 }
