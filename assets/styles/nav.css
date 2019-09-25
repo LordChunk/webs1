@@ -1,7 +1,21 @@
 nav {
     width: 10vw;
-    height: 40vh; 
-    background: turquoise;  
+    background: turquoise;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;  
+}
+
+nav>ul{
+    display: flex;
+    justify-content: space-around;
+    background: turquoise;
+}
+
+nav li{
+    list-style: none;
+    position: relative;
 }
 nav #nav-check {
     z-index: 10;
@@ -15,9 +29,30 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+nav li ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+nav ul li ul{
+    background: turquoise;
+    display: none;
+}
+
+nav li:hover>ul{
+    display: block;
 }
 
 nav ul > * {
     width: 15vw;
     height: 2em;
+}
+
+nav a{
+    text-decoration: none;
 }
