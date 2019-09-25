@@ -15,21 +15,31 @@
 </head>
 
 <body>
+    <!--  Navcheck is put in root for easy CSS selection  -->
+    <input type="checkbox" id="nav-check">
+    <header>
+        <label for="nav-check">
+            <i class="material-icons">menu</i>
+        </label>
+        <h1>Rainbow 6 Siege Website</h1>
+    </header>
     <nav>
-        <input type="checkbox" id="nav-check">
-        <i class="material-icons">menu</i>
+        <ul class="nav-content">
+            <li><a href="./">Home</a></li>
+            <li><a href="./job.html">Job</a></li>
+            <li><a href="./mark.html">Mark</a></li>
+        </ul>
     </nav>
-    <h1>pagina 1</h1>
-
-    <ul>
-        <li><a href="./">Home</a></li>
-        <li><a href="./job.html">Job</a></li>
-        <li><a href="./mark.html">Mark</a></li>
-    </ul>
-
-    <marquee direction="down" width="250" height="200" behavior="alternate" style="border:solid">
-        <marquee behavior="alternate">
-            poepje in je broekje
-        </marquee>
-    </marquee>
+    <div id="website-content">
+        <main>
+            <h1>pagina 1</h1>
+        
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam odio quia officia. Dolorum iusto ea doloremque eaque, praesentium id aspernatur neque voluptas. Veritatis saepe quisquam possimus necessitatibus non omnis similique. </p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam odio quia officia. Dolorum iusto ea doloremque eaque, praesentium id aspernatur neque voluptas. Veritatis saepe quisquam possimus necessitatibus non omnis similique. </p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam odio quia officia. Dolorum iusto ea doloremque eaque, praesentium id aspernatur neque voluptas. Veritatis saepe quisquam possimus necessitatibus non omnis similique. </p>
+        </main>
+        <footer>
+            <h5>©2019, Job van Ooik & Mark Vermulst</h5>
+        </footer>
+    </div>
 </body>

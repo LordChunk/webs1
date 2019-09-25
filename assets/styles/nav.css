@@ -1,7 +1,47 @@
-nav #nav-check {
-    z-index: 10;
+/* Nav styling */
+nav {
+    background-color: brown;
+    position: absolute;
+    left: 0;
+    width: 40vw;
+    height: calc(100vh - 4em);
+}
+#nav-check {
+    display: none;
 }
 nav #nav-check + * {
-    z-index: 1;
     color: red;
+}
+#nav-check ~ nav {
+    margin-left: -100%;
+}
+
+nav ul {
+    margin: 0;
+}
+
+#nav-check:checked ~ nav {
+    margin-left: 0;
+}
+/* Header styling */
+header {
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    height: 4em;
+}
+header h1 {
+    font-size: 1.2em;
+}
+header label {
+    display: flex;
+}
+header label i {
+    padding: 100% 0;
+}
+header > * {
+    padding: 0 10px;
+}
+#nav-check:checked ~ #website-content {
+    margin-left: 40vw;
 }
