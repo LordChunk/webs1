@@ -5,15 +5,14 @@ nav {
     left: 0;
     width: 40vw;
     height: calc(100vh - 4em);
+    margin-left: -40vw;
+    transition: margin 1s;
 }
 #nav-check {
     display: none;
 }
 nav #nav-check + * {
     color: red;
-}
-#nav-check ~ nav {
-    margin-left: -100%;
 }
 
 nav ul {
@@ -41,6 +40,9 @@ header label i {
 }
 header > * {
     padding: 0 10px;
+}
+#website-content {
+    transition: margin 1s;
 }
 #nav-check:checked ~ #website-content {
     margin-left: 40vw;
