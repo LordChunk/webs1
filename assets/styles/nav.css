@@ -8,15 +8,27 @@ nav {
     margin-left: -40vw;
     transition: margin 1s;
 }
+nav a, header  a{
+    text-decoration: unset;
+    color: unset;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav a {
+    display: block;
+}
+header label:hover, header a:hover, nav li:hover {
+    background:rgba(0,0,0,0.2);
+    transition: background .2s;
+}
 #nav-check {
     display: none;
 }
 nav #nav-check + * {
     color: red;
-}
-
-nav ul {
-    margin: 0;
 }
 
 #nav-check:checked ~ nav {
@@ -32,14 +44,15 @@ header {
 header h1 {
     font-size: 1.2em;
 }
-header label {
-    display: flex;
-}
 header label i {
     padding: 100% 0;
 }
 header > * {
     padding: 0 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: inherit;
 }
 #website-content {
     transition: margin 1s;
