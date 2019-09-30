@@ -5,3 +5,19 @@
 body {
     margin: 0;
 }
+#website-content {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(.26,.62,.26,.96);   
+}
+
+@keyframes fadeIn {
+    from { 
+        margin-top: 5em; 
+        opacity: 0;
+    }
+    to { 
+        margin-top: 0; 
+        opacity: 1;
+    }
+}
