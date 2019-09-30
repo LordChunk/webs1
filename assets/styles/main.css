@@ -13,7 +13,7 @@ body {
 
 @keyframes fadeIn {
     from { 
-        margin-top: 5em; 
+        margin-top: 3em; 
         opacity: 0;
     }
     to { 
