@@ -8,18 +8,43 @@
 
     <title>Een mooie website van Mark en Job</title>
     <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
     <link rel="stylesheet" href="./assets/styles/main.css">
     <link rel="stylesheet" href="./assets/styles/nav.css">
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="./">Home</a></li>
-        </ul>
-    </nav>
+   <!--  Navcheck is put in root for easy CSS selection  -->
+   <input type="checkbox" id="nav-check">
+   <header>
+       <label for="nav-check">
+           <i class="material-icons">menu</i>
+       </label>
+       <h1>Rainbow 6 Siege Website</h1>
+   </header>
+   <nav>
+       <ul class="nav-content">
+           <li><a href="./">Home</a></li>
+           <li><a href="./job.html">Job</a></li>
+           <li><a href="./valkyrie.html">Valkyrie</a></li>
+       </ul>
+   </nav>
+   <div id="website-content">
+       <main>
+           <h1>Valkyrie</h1>
 
-    
+           <section class="Bio">
+               <h3>Bio</h3>
+           </section>
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam odio quia officia. Dolorum iusto ea doloremque eaque, praesentium id aspernatur neque voluptas. Veritatis saepe quisquam possimus necessitatibus non omnis similique. </p>
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam odio quia officia. Dolorum iusto ea doloremque eaque, praesentium id aspernatur neque voluptas. Veritatis saepe quisquam possimus necessitatibus non omnis similique. </p>
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam odio quia officia. Dolorum iusto ea doloremque eaque, praesentium id aspernatur neque voluptas. Veritatis saepe quisquam possimus necessitatibus non omnis similique. </p>
+       </main>
+       <footer>
+           <h5>©2019, Job van Ooik & Mark Vermulst</h5>
+       </footer>
+   </div>
 </body>
 
 </html>
