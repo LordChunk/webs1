@@ -1,9 +1,8 @@
 * {
     font-family: 'Source Sans Pro', sans-serif;
     box-sizing: border-box;
-}
-body {
     margin: 0;
+    padding: 0;
 }
 #website-content {
     animation-name: fadeIn;
