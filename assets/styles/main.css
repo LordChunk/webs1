@@ -2,22 +2,47 @@
     font-family: 'Source Sans Pro', sans-serif;
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
 }
+
+a {
+   color: #e81c4f; 
+}
+
 #website-content {
     animation-name: fadeIn;
     animation-duration: 1s;
-    animation-timing-function: cubic-bezier(.26,.62,.26,.96);   
+    animation-timing-function: cubic-bezier(.26, .62, .26, .96);
+    margin: 0 auto;
+    max-width: 50em;
+
+    line-height: 1.5;
+    padding: 3em 1em;
+    color: #555;
+}
+
+#website-content h1:first-child {
+    margin-top: 0;
+}
+
+#website-content h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+#website-content h1, #website-content h2, #website-content strong {
+  color: #333;
 }
 
 @keyframes fadeIn {
-    from { 
-        margin-top: 3em; 
+    from {
+        margin-top: 3em;
         opacity: 0;
     }
-    to { 
-        margin-top: 0; 
+    to {
+        margin-top: 0;
         opacity: 1;
     }
 }

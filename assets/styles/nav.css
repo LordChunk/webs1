@@ -1,6 +1,6 @@
 /* Nav styling */
 nav {
-    background-color: brown;
+    background-color: #016b6b;
     position: absolute;
     left: 0;
     width: 40vw;
@@ -8,7 +8,7 @@ nav {
     margin-left: -40vw;
     transition: margin 1s;
 }
-nav a, header  a{
+nav a, header a {
     text-decoration: unset;
     color: unset;
 }
@@ -27,16 +27,13 @@ header label:hover, header a:hover, nav li:hover {
 #nav-check {
     display: none;
 }
-nav #nav-check + * {
-    color: red;
-}
 
 #nav-check:checked ~ nav {
     margin-left: 0;
 }
 /* Header styling */
 header {
-    background-color: teal;
+    background-color: #008080;
     display: flex;
     align-items: center;
     height: 4em;

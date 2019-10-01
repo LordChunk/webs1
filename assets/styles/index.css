@@ -1,0 +1,11 @@
+.operator-header {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 500px) {
+    .operator-header img {
+        width: 3em;
+        height: auto;
+    }   
+}
