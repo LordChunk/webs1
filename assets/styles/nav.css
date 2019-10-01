@@ -17,6 +17,20 @@ nav ul {
     padding: 0;
     margin: 0;
 }
+nav ul li a{
+    padding: 5vh 0;
+    width: 20vw;
+    text-align: center;
+    color: white;
+}
+@media only screen and (max-width: 500px) {
+    nav ul li a{
+        width: 100vw;
+    }
+  }
+
+  
+
 nav a {
     display: block;
 }
@@ -33,10 +47,11 @@ header label:hover, header a:hover, nav li:hover {
 }
 /* Header styling */
 header {
-    background-color: #008080;
+    background-color: #1eacac;
     display: flex;
     align-items: center;
     height: 4em;
+    color: white;
 }
 header h1 {
     font-size: 1.2em;
