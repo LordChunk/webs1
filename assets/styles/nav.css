@@ -20,9 +20,20 @@ nav ul {
     flex-direction: column;
     align-items: center;
 }
-nav ul li{
-    margin: 5vh;
+nav ul li a{
+    padding: 5vh 0;
+    width: 20vw;
+    text-align: center;
+    color: white;
 }
+@media only screen and (max-width: 500px) {
+    nav ul li a{
+        width: 100vw;
+    }
+  }
+
+  
+
 nav a {
     display: block;
 }
@@ -42,10 +53,11 @@ nav #nav-check + * {
 }
 /* Header styling */
 header {
-    background-color: #1ec2c2;
+    background-color: #1eacac;
     display: flex;
     align-items: center;
     height: 4em;
+    color: white;
 }
 header h1 {
     font-size: 1.2em;
