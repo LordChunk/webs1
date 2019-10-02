@@ -3,9 +3,9 @@ nav {
     background-color: #016b6b;
     position: absolute;
     left: 0;
-    width: 40vw;
+    width: 20vw;
     height: calc(100vh - 4em);
-    margin-left: -40vw;
+    margin-left: -20vw;
     transition: margin 1s;
 }
 nav a, header a {
@@ -27,10 +27,12 @@ nav ul li a{
     nav ul li a{
         width: 100vw;
     }
+    nav {
+        background-color: #016b6b;
+        width: 100vw;
+        margin-left: -100vw;
+    }
   }
-
-  
-
 nav a {
     display: block;
 }
