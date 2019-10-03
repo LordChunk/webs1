@@ -70,7 +70,6 @@ header > * {
 }
 #website-content {
     transition: margin-left 1s;
-    margin-left: 0;
 }
 #nav-check:checked ~ #website-content {
     margin-left: 20vw;
