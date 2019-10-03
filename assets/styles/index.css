@@ -1,38 +1,11 @@
+.operator-header {
+    display: flex;
+    align-items: center;
+}
+
 @media (max-width: 500px) {
-    .valk-section img {
+    .operator-header img {
         width: 3em;
         height: auto;
-    }
-}
-
-@media (min-width: 501px) {
-    .valk-section img {
-        height: 400px;
-    }
-}
-
-.valk-section {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(2, auto);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-}
-
-.valk-section img {
-    grid-area: 1 / 1 / 2 / 2;
-}
-
-.valk-section a {
-    grid-area: 1 / 2 / 2 / 3;
-}
-
-.valk-section summary {
-    grid-area: 2 / 1 / 3 / 3;
-}
-
-.valk-section > * {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    }   
 }
