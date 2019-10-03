@@ -69,8 +69,9 @@ header > * {
     height: inherit;
 }
 #website-content {
-    transition: margin 1s;
+    transition: margin-left 1s;
+    margin-left: 0;
 }
 #nav-check:checked ~ #website-content {
-    margin-left: 40vw;
+    margin-left: 20vw;
 }
