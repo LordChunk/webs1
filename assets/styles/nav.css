@@ -65,7 +65,7 @@ header > * {
     padding: 0 10px;
     display: flex;
     align-items: center;
-    cursor: pointer;
+    cursor: url('../images/mooie-cursor.cur'), pointer;
     height: inherit;
 }
 #website-content {

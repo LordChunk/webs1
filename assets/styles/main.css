@@ -8,7 +8,11 @@ body {
 }
 
 a {
-   color: #e81c4f; 
+    color: #e81c4f;
+}
+
+a:hover {
+    cursor: url('../images/mooie-cursor.cur'), pointer;
 }
 
 #website-content {
@@ -17,7 +21,6 @@ a {
     animation-timing-function: cubic-bezier(.26, .62, .26, .96);
     margin: 0 auto;
     max-width: 50em;
-
     line-height: 1.5;
     padding: 3em 1em;
     color: #555;
@@ -33,7 +36,7 @@ a {
 }
 
 #website-content h1, #website-content h2, #website-content strong {
-  color: #333;
+    color: #333;
 }
 
 @keyframes fadeIn {
