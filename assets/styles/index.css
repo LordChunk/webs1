@@ -3,6 +3,30 @@
     align-items: center;
 }
 
+.operators{
+    background-color: steelblue;
+    color: black;
+    padding: 0% 6%;
+}
+
+.operators a{
+    color: #ebee11;
+}
+
+.operators h2{
+    color: black;
+}
+
+.speelvelden{
+    background-color: aqua;
+    color: black;
+    padding: 0% 6%;
+}
+
+.speelvelden a{
+    color: #e51ce8;
+}
+
 @media (max-width: 500px) {
     .operator-header img {
         width: 3em;
