@@ -1,112 +1,145 @@
 <!DOCTYPE html>
 <html lang="nl">
-
-<head>
+  <head>
     <!-- Set modern charset -->
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <!-- Scale viewport properly for mobile devices -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Set compatibility version for IE & Edge -->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <title>Een mooie website van Mark en Job</title>
-    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      href="//fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="//fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="./assets/styles/main.css">
-    <link rel="stylesheet" href="./assets/styles/nav.css">
-    <link rel="stylesheet" href="./assets/styles/index.css">
-</head>
+    <link rel="stylesheet" href="./assets/styles/main.css" />
+    <link rel="stylesheet" href="./assets/styles/nav.css" />
+    <link rel="stylesheet" href="./assets/styles/index.css" />
+  </head>
 
-<body>
+  <body>
     <!--  Navcheck is put in root for easy CSS selection  -->
-    <input type="checkbox" id="nav-check">
+    <input type="checkbox" id="nav-check" />
     <header>
-        <label for="nav-check">
-            <i class="material-icons">menu</i>
-        </label>
-        <a href="/">
-            <h1>Rainbow 6 Siege Website</h1>
-        </a>
+      <label for="nav-check">
+        <i class="material-icons">menu</i>
+      </label>
+      <a href="/">
+        <h1>Rainbow 6 Siege Website</h1>
+      </a>
     </header>
     <nav>
-        <ul class="nav-content">
-            <li><a href="./">Home</a></li>
-            <li><a href="./zofia.html">Zofia</a></li>
-            <li><a href="./valkyrie.html">Valkyrie</a></li>
-            <li><a href="./consulate.html">Consulate</a></li>
-            <li><a href="./oregon.html">Oregon</a></li>
-        </ul>
+      <ul class="nav-content">
+        <li><a href="./">Home</a></li>
+        <li><a href="./zofia.html">Zofia</a></li>
+        <li><a href="./valkyrie.html">Valkyrie</a></li>
+        <li><a href="./consulate.html">Consulate</a></li>
+        <li><a href="./oregon.html">Oregon</a></li>
+      </ul>
     </nav>
     <div id="website-content">
-        <main>
-            <article>
-                <h1>Welkom!</h1>
-                <p>Welkom bij deze sappige Rainbow Six Siege website!</p>
-                <p>Hier kan je matig veel informatie vinden over 2 Rainbow Six operators en 2 ludieke maps. De operators
-                    zijn: <a href="./valkyrie.html">Valkerie</a> en <a href="./zofia.html">Zofia</a> en de maps zijn: <a
-                        href="./consulate.html">Consulate</a> en <a href="./oregon.html">Oregon</a></p>
-            </article>
-            <section class="operators">
-                <h2>Operators</h2>
-                <summary>Hier vind je beknopte informatie van de operators</summary>
-                <article>
-                    <a href="./valkyrie.html" class="operator-header">
-                        <picture class="operator-icon">
-                            <source media="(max-width: 500px)"
-                                srcset="https://vignette.wikia.nocookie.net/rainbowsix/images/e/ef/Valkyrie_badge.png">
-                            <img src="https://m.chu.mk/2019-10/valk-cam.png" alt="Valkery Player Model">
-                        </picture>
-                        <h3>Valkyrie</h3>
-                    </a>
-                    <p>
-                        Valkyrie is een operator voor het verdedigende team en beschikt over gyroscoop
-                        cameras. Verder is Valkyrie een 2 armour en een 2 speed verdediger.
-                    </p>
-                </article>
-                <article>
-                    <a href="./zofia.html" class="operator-header">
-                        <picture class="operator-icon">
-                                <source media="(max-width: 500px)"
-                                    srcset="">
-                                <img src="" alt="Valkery Player Model">
-                            </picture>
-                        <h3>Zofia</h3>
-                    </a>
-                    <p>
-                        Zofia is een aanvaller en beschikt over de KS79 LIFELINE, een 2 delige werper die of
-                        impact of hersenschud granaten kan afvuren. Verder is Zofia een 2 armour en een 2 speed
-                        aanvaller.
-                    </p>
-                </article>
-            </section>
-            <section class="speelvelden">
-                    <h2>Speelvelden</h2>
-                    <summary>Hier vind je beknopte informatie over de Speelvelden</summary>
-                    <article>
-                        <a href="./consulate.html">
-                            <h3>Consulate</h3>
-                        </a>
-                        <p>
-
-                        </p>
-                    </article>
-                    <article>
-                        <a href="./oregon.html">
-                            <h3>Oregon</h3>
-                        </a>
-                        <p>
-
-                        </p>
-                    </article>
-                </section>
-        </main>
-        <footer>
-            <h5>©2019, Job van Ooik & Mark Vermulst</h5>
-        </footer>
+      <main>
+        <article>
+          <h1>Welkom!</h1>
+          <p>Welkom bij deze sappige Rainbow Six Siege website!</p>
+          <p>
+            Hier kan je matig veel informatie vinden over 2 Rainbow Six
+            operators en 2 ludieke maps. De operators zijn:
+            <a href="./valkyrie.html">Valkerie</a> en
+            <a href="./zofia.html">Zofia</a> en de maps zijn:
+            <a href="./consulate.html">Consulate</a> en
+            <a href="./oregon.html">Oregon</a>
+          </p>
+        </article>
+        <section class="operators">
+          <h2>Operators</h2>
+          <summary>Hier vind je beknopte informatie van de operators</summary>
+          <article>
+            <a href="./valkyrie.html" class="operator-header">
+              <img
+                src="./assets/images/valk-model.webp"
+                alt="Valkery Player Model"
+              />
+              <h3>Valkyrie</h3>
+            </a>
+            <p>
+              Valkyrie is een operator voor het verdedigende team en beschikt
+              over gyroscoop cameras. Verder is Valkyrie een 2 armour en een 2
+              speed verdediger.
+            </p>
+          </article>
+          <article>
+            <a href="./zofia.html" class="operator-header">
+              <img src="./assets/images/zofia-model.webp" alt="Zofia Model" />
+              <h3>Zofia</h3>
+            </a>
+            <p>
+              Zofia is een aanvaller en beschikt over de KS79 LIFELINE, een 2
+              delige werper die of impact of hersenschud granaten kan afvuren.
+              Verder is Zofia een 2 armour en een 2 speed aanvaller.
+            </p>
+          </article>
+        </section>
+        <section class="speelvelden">
+          <h2>Speelvelden</h2>
+          <summary
+            >Hier vind je beknopte informatie over de Speelvelden.</summary
+          >
+          <article>
+            <a href="./consulate.html" class="speelveld-header">
+              <h3>Consulate</h3>
+              <picture>
+                <source
+                  media="(max-width: 500px)"
+                  srcset="./assets/images/consulate.jpg"
+                />
+                <img
+                  src="./assets/images/consulate-high-res.jpg"
+                  alt="Consulate Building"
+                />
+              </picture>
+            </a>
+            <p>
+              De prachtige tuinen van het consulaat, gelegen in de economische
+              hoofdstad van Ivoorkust, Abidjan, maken plaats voor een waar fort,
+              met één negatief punt de meerdere toegangspunten voor aanvallers.
+            </p>
+          </article>
+          <article>
+              <a href="./oregon.html" class="speelveld-header">
+                <h3>Oregon</h3>
+                <picture>
+                  <source
+                    media="(max-width: 500px)"
+                    srcset="./assets/images/oregon.webp"
+                  />
+                  <img
+                    src="./assets/images/oregon-high-res.jpg"
+                    alt="Consulate Building"
+                  />
+                </picture>
+              </a>
+            <p>
+              Op de locatie Redmond, Oregon. Toont een aanval op een versterkte
+              survivalistische compound. Het voelt rustiek, eclectisch en
+              ingeburgerd en heeft een uitgebreide, uitgestrekte lay-out die
+              aangepaste tactieken vereist om effectief aan te vallen of te
+              verdedigen.
+            </p>
+          </article>
+        </section>
+      </main>
+      <footer>
+        <h5>©2019, Job van Ooik & Mark Vermulst</h5>
+      </footer>
     </div>
     <!-- Fixes CSS animation on load https://stackoverflow.com/questions/14389566/stop-css-transition-from-firing-on-page-load  -->
-    <script> </script>
-</body>
-
+    <script></script>
+  </body>
 </html>
