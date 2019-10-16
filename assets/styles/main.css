@@ -1,6 +1,7 @@
 * {
     font-family: 'Source Sans Pro', sans-serif;
     box-sizing: border-box;
+    outline: none;
 }
 
 body {
@@ -26,6 +27,13 @@ a:hover {
     color: #555;
 }
 
+.content-box {
+    background: rgba(0, 0, 0, 0.08);
+    padding: 0 6% 1em 6%;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+
 #website-content h1:first-child {
     margin-top: 0;
 }
@@ -35,7 +43,8 @@ a:hover {
     padding-top: 1em;
 }
 
-#website-content h1, #website-content strong {
+#website-content h1,
+#website-content strong {
     color: #333;
 }
 

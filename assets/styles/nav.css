@@ -8,6 +8,7 @@ nav {
     margin-left: -20vw;
     transition: margin 1s;
     height: -webkit-fill-available;
+    z-index: 999;
 }
 nav a, header a {
     text-decoration: unset;

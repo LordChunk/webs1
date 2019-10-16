@@ -4,27 +4,21 @@
     justify-content: space-around;
 }
 
-.operators, .speelvelden {
-    background: rgba(0, 0, 0, 0.08);
-    padding: 0 6% 1em 6%;
-    margin-bottom: 1em;
-    border-radius: 5px;
-}
-
-
 .speelvelden img {
     width: 100%;
 }
 
-.speelveld-header {
+.speelveld-header, .operator-header {
     position: relative;
 }
-.speelveld-header h3 {
+
+.speelveld-header h3, .operator-header h3{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* Move item up and right 50% to itself */
-    z-index: 20;
+    transform: translate(-50%, -50%);
+    /* Move item up and right 50% to itself */
+    z-index: 1;
     margin: 0;
     font-size: xx-large;
     color: white;
@@ -32,12 +26,17 @@
 
 @media (max-width: 500px) {
     .operator-header img {
-        width: 3em;
+        width: 5em;
         height: auto;
+    }
+    .operator-header h3{
+        font-size: inherit;
+        top: 100%;
+        transform: translate(-50%, -100%);
     }
 }
 
-@media (min-width: 501px) {
+@media (min-width: 500px) {
     .operator-header {
         flex-direction: column;
         align-items: baseline;
@@ -45,5 +44,8 @@
     .operator-header img {
         margin-right: 1em;
         height: 200px;
+    }
+    .operator-header h3{
+        color: black;
     }
 }

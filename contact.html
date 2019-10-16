@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="nl">
-  <head>
+
+<head>
     <!-- Set modern charset -->
     <meta charset="UTF-8" />
     <!-- Scale viewport properly for mobile devices -->
@@ -9,55 +10,107 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <title>Een mooie website van Mark en Job</title>
-    <link
-      href="//fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="//fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet" />
+    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
     <link rel="stylesheet" href="./assets/styles/main.css" />
     <link rel="stylesheet" href="./assets/styles/nav.css" />
-    <link rel="stylesheet" href="./assets/styles/index.css" />
-  </head>
+    <link rel="stylesheet" href="./assets/styles/contact.css" />
+</head>
 
-  <body>
+<body>
     <!--  Navcheck is put in root for easy CSS selection  -->
     <input type="checkbox" id="nav-check" />
     <header>
-      <label for="nav-check">
-        <i class="material-icons">menu</i>
-      </label>
-      <a href="/">
-        <h1>Rainbow 6 Siege Website</h1>
-      </a>
+        <label for="nav-check">
+            <i class="material-icons">menu</i>
+        </label>
+        <a href="/">
+            <h1>Rainbow 6 Siege Website</h1>
+        </a>
     </header>
     <nav>
-      <ul class="nav-content">
-        <li><a href="./">Home</a></li>
-        <li><a href="./zofia.html">Zofia</a></li>
-        <li><a href="./valkyrie.html">Valkyrie</a></li>
-        <li><a href="./consulate.html">Consulate</a></li>
-        <li><a href="./oregon.html">Oregon</a></li>
-      </ul>
+        <ul class="nav-content">
+            <li><a href="./">Home</a></li>
+            <li><a href="./zofia.html">Zofia</a></li>
+            <li><a href="./valkyrie.html">Valkyrie</a></li>
+            <li><a href="./consulate.html">Consulate</a></li>
+            <li><a href="./oregon.html">Oregon</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./about.html">About</a></li>
+        </ul>
     </nav>
     <div id="website-content">
-      <main>
-        <h1>Vragen neem hier contact met ons op!</h1>
-        <form action="#" method="post">
-            <input type="email" name="email" placeholder="Emailadres">
-            <input type="tel" name="telefoon" placeholder="Telefoonnummer">
-            <input type="password" name="password" placeholder="Wachtwoord">
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-        </form>
-      </main>
-      <footer>
-        <h5>©2019, Job van Ooik & Mark Vermulst</h5>
-      </footer>
+        <main>
+            <h1>Verkoop je ziel aan ons!</h1>
+            <span><strong>Nu met gratis verzendknop!</strong></span>
+            <form action="#" method="post">
+                <div class="checkbox-wrapper">
+                    <input type="checkbox" name="ziel-verkoop" id="ziel-verkoop" checked required />
+                    <label for="ziel-verkoop">
+                        Door deze pagina te openen verkoop ik mijn ziel
+                        <i class="material-icons custom-checkbox"></i>
+                    </label>
+                </div>
+
+                <input type="text" name="naam" placeholder="Uw naam" required />
+                <input type="email" name="email" placeholder="Emailadres" required />
+                <input type="password" name="password" placeholder="Wachtwoord" required />
+
+                <input type="number" name="unborn-children" placeholder="Aantal ongeboren kinderen" />
+                <input type="tel" name="telefoon" placeholder="Telefoonnummer" />
+
+                <select name="Vorm van uw ziel" id="dropdown">
+                    <option value="Vierkant" disabled selected>Vorm van uw ziel</option>
+                    <option value="Vierkant">Vierkant</option>
+                    <option value="Niet vierkant">Niet vierkant</option>
+                    <option value="Vierkant met ronde hoeken">Vierkant met ronde hoeken</option>
+                    <option value="Ovaalvormig">Ovaalvormig</option>
+                </select>
+                <div class="radio-wrapper">
+                    <p>Wat is uw gender?</p>
+                    <div class="radio-input-wrapper">
+                        <label for="radio-man">
+                            <input type="radio" name="gender" value="man" id="radio-man" />
+                            <div class="custom-radio-buttons">
+                                <div></div>
+                            </div>
+                            <div>Man</div>
+                        </label>
+                        <label for="radio-vrouw">
+                            <input type="radio" name="gender" value="vrouw" id="radio-vrouw" />
+                            <div class="custom-radio-buttons">
+                                <div></div>
+                            </div>
+                            <div>Vrouw</div>
+                        </label>
+                        <label for="radio-anders">
+                            <input type="radio" name="gender" value="ander" id="radio-anders" />
+                            <div class="custom-radio-buttons">
+                                <div></div>
+                            </div>
+                            <div>Anders</div>
+                        </label>
+                        <label for="radio-frans">
+                            <input type="radio" name="gender" value="frans" id="radio-frans" />
+                            <div class="custom-radio-buttons">
+                                <div></div>
+                            </div>
+                            <div>Frans</div>
+                        </label>
+                    </div>
+                </div>
+
+                <button type="submit">Verstuur mijn ziel over de interwebs</button>
+            </form>
+        </main>
+        <footer>
+            <h5>©2019, Job van Ooik & Mark Vermulst</h5>
+        </footer>
     </div>
     <!-- Fixes CSS animation on load https://stackoverflow.com/questions/14389566/stop-css-transition-from-firing-on-page-load  -->
-    <script></script>
-  </body>
+    <script>
+    </script>
+</body>
+
 </html>
