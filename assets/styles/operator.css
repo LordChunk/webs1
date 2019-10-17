@@ -1,0 +1,15 @@
+.loadout h1:first-of-type{
+    padding-top: 1em;
+}
+#website-content h2{
+    padding-top:  0px;
+    margin-top: 0px;
+}
+.guns-gadget{
+    display: flex;
+}
+@media only screen and (min-width: 500px){
+    .keuze{
+        width: 10vw;
+    }
+}

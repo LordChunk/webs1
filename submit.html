@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <!-- Set modern charset -->
+    <meta charset="UTF-8" />
+    <!-- Scale viewport properly for mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Set compatibility version for IE & Edge -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Een mooie website van Mark en Job</title>
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet" />
+    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./assets/styles/main.css" />
+    <link rel="stylesheet" href="./assets/styles/nav.css" />
+    <link rel="stylesheet" href="./assets/styles/submit.css" />
+</head>
+
+<body>
+    <!--  Navcheck is put in root for easy CSS selection  -->
+    <input type="checkbox" id="nav-check" />
+    <header>
+        <label for="nav-check">
+            <i class="material-icons">menu</i>
+        </label>
+        <a href="/">
+            <h1>Rainbow 6 Siege Website</h1>
+        </a>
+    </header>
+    <nav>
+        <ul class="nav-content">
+            <li><a href="./">Home</a></li>
+            <li><a href="./zofia.html">Zofia</a></li>
+            <li><a href="./valkyrie.html">Valkyrie</a></li>
+            <li><a href="./consulate.html">Consulate</a></li>
+            <li><a href="./oregon.html">Oregon</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./about.html">About</a></li>
+        </ul>
+    </nav>
+    <div id="website-content">
+        <main>
+            <h1>Gefeliciteerd, uw ziel is ontvangen!</h1>
+            <div class="snatch-wrapper">
+                <img src="https://m.chu.mk/2019-10/chrome_15-27_29.png" alt="The Snatcher">
+            </div>
+        </main>
+    </div>
+    <audio src="./assets/audio/fool.mp3" autoplay></audio>
+    <!-- Fixes CSS animation on load https://stackoverflow.com/questions/14389566/stop-css-transition-from-firing-on-page-load  -->
+    <script>
+    </script>
+</body>
+
+</html>

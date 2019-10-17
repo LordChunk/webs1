@@ -1,0 +1,81 @@
+#website-content * {
+    color: white !important;
+}
+
+header {
+    background-color: red;
+}
+
+#website-content {
+    height: calc(100vh - 4em);
+}
+
+body {
+    background: black;
+    background-image: url('../images/flames.gif');
+    background-position: bottom;
+    background-repeat-y: no-repeat;
+}
+
+.snatch-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.snatch-wrapper img {
+    width: 100%;
+    animation: goIn 3.7s ease forwards;
+}
+
+@keyframes goIn {
+    0% {
+        opacity: 0;
+        width: 0;
+    }
+    10% {
+        opacity: 1;
+        width: 100%;
+    }
+    15% {
+        opacity: 1;
+        width: 80%;
+    }
+    20% {
+        opacity: 1;
+        width: 100%;
+    }
+    25% {
+        opacity: 1;
+        width: 80%;
+    }
+    30% {
+        opacity: 1;
+        width: 90%;
+    }
+    40% {
+        opacity: 1;
+        width: 70%;
+    }
+    50% {
+        opacity: 1;
+        width: 95%;
+    }
+    60% {
+        opacity: 1;
+        width: 80%;
+    }
+    85% {
+        opacity: 1;
+        width: 80%;
+    }
+    92% {
+        opacity: 1;
+        width: 120%;
+    }
+
+    100% {
+        opacity: 1;
+        width: 100%;
+    }
+}

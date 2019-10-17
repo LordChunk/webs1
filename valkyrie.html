@@ -1,58 +1,132 @@
 <!DOCTYPE html>
 <html lang="nl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <title>Een mooie website van Mark en Job</title>
-    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link
+      href="//fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="//fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="./assets/styles/main.css">
-    <link rel="stylesheet" href="./assets/styles/nav.css">
-</head>
+    <link rel="stylesheet" href="./assets/styles/main.css" />
+    <link rel="stylesheet" href="./assets/styles/nav.css" />
+    <link rel="stylesheet" href="./assets/styles/operator.css" />
+  </head>
 
-<body>
+  <body>
     <!--  Navcheck is put in root for easy CSS selection  -->
-    <input type="checkbox" id="nav-check">
+    <input type="checkbox" id="nav-check" />
     <header>
-        <label for="nav-check">
-            <i class="material-icons">menu</i>
-        </label>
-        <a href="/">
-            <h1>Rainbow 6 Siege Website</h1>
-        </a>
+      <label for="nav-check">
+        <i class="material-icons">menu</i>
+      </label>
+      <a href="/">
+        <h1>Rainbow 6 Siege Website</h1>
+      </a>
     </header>
     <nav>
-        <ul class="nav-content">
-          <li><a href="./">Home</a></li>
-          <li><a href="./zofia.html">Zofia</a></li>
-          <li><a href="./valkyrie.html">Valkyrie</a></li>
-          <li><a href="./consulate.html">Consulate</a></li>
-          <li><a href="./oregon.html">Oregon</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-          <li><a href="./about.html">About</a></li>
-        </ul>
-      </nav>
+      <ul class="nav-content">
+        <li><a href="./">Home</a></li>
+        <li><a href="./zofia.html">Zofia</a></li>
+        <li><a href="./valkyrie.html">Valkyrie</a></li>
+        <li><a href="./consulate.html">Consulate</a></li>
+        <li><a href="./oregon.html">Oregon</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./about.html">About</a></li>
+      </ul>
+    </nav>
     <div id="website-content">
-        <main>
-            <h1>Valkyrie</h1>
+      <main>
+        <h1>Valkyrie</h1>
 
-           <section class="Bio">
-               <h3>Bio</h3>
-           </section>
-           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam odio quia officia. Dolorum iusto ea doloremque eaque, praesentium id aspernatur neque voluptas. Veritatis saepe quisquam possimus necessitatibus non omnis similique. </p>
-           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam odio quia officia. Dolorum iusto ea doloremque eaque, praesentium id aspernatur neque voluptas. Veritatis saepe quisquam possimus necessitatibus non omnis similique. </p>
-           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam odio quia officia. Dolorum iusto ea doloremque eaque, praesentium id aspernatur neque voluptas. Veritatis saepe quisquam possimus necessitatibus non omnis similique. </p>
-       </main>
-       <footer>
-           <h5>©2019, Job van Ooik & Mark Vermulst</h5>
-       </footer>
-   </div>
-   <!-- Fixes CSS animation on load https://stackoverflow.com/questions/14389566/stop-css-transition-from-firing-on-page-load  -->
-   <script>
-   </script>
-</body>
+        <section class="Bio">
+          <h3>Bio</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+            odio quia officia. Dolorum iusto ea doloremque eaque, praesentium id
+            aspernatur neque voluptas. Veritatis saepe quisquam possimus
+            necessitatibus non omnis similique.
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+            odio quia officia. Dolorum iusto ea doloremque eaque, praesentium id
+            aspernatur neque voluptas. Veritatis saepe quisquam possimus
+            necessitatibus non omnis similique.
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+            odio quia officia. Dolorum iusto ea doloremque eaque, praesentium id
+            aspernatur neque voluptas. Veritatis saepe quisquam possimus
+            necessitatibus non omnis similique.
+          </p>
+        </section>
+        <section class="loadout content-box">
+          <h1>Bepakkings keuzes voor Valkyrie</h1>
+          <h2>Primaire wapen(s):</h2>
+          <div class="primary-guns guns-gadget">
+            <div class="keuze">
+              <img src="./assets/images/mpx.png" alt="MPX Submachine gun" />
+              <p>
+                MPX Submachine gun
+              </p>
+            </div>
+            <div class="keuze">
+              <img src="./assets/images/SPAS-12.png" alt="SPAS-12 Shotgun" />
+              <p>
+                SPAS-12 Shotgun
+              </p>
+            </div>
+          </div>
+          <hr />
+          <h2>Secondaire wapen(s):</h2>
+          <div class="secondary-guns guns-gadget">
+            <div class="keuze">
+              <img src="./assets/images/D-50.png" alt="D-50 Handgun" />
+              <p>
+                D-50 Handgun
+              </p>
+            </div>
+          </div>
+          <hr />
+          <h2>Secondaire gadgets:</h2>
+          <div class="secondary-gadget guns-gadget">
+            <div class="keuze">
+              <img src="./assets/images/deployable-shield.png" alt="neerzetbare schild" />
+              <p>
+                neerzetbare schild
+              </p>
+            </div>
+            <div class="keuze">
+              <img src="./assets/images/nitrocell.png" alt="nitroglycerine cel" />
+              <p>
+                nitroglycerine cel
+              </p>
+            </div>
+          </div>
+          <hr />
+          <h2>Primaire gadget:</h2>
+          <div class="primary-gadget guns-gadget">
+              <div class="keuze">
+                  <img src="./assets/images/Gyro-Cam.png" alt="gyro cam" />
+                  <p>
+                    Gyro cam
+                  </p>
+              </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <h5>©2019, Job van Ooik & Mark Vermulst</h5>
+      </footer>
+    </div>
+    <!-- Fixes CSS animation on load https://stackoverflow.com/questions/14389566/stop-css-transition-from-firing-on-page-load  -->
+    <script></script>
+  </body>
 </html>
