@@ -10,6 +10,21 @@
 }
 @media only screen and (min-width: 500px){
     .keuze{
-        width: 10vw;
+        width: 50%;
+    }
+    img {
+        max-width: -webkit-fill-available;
+        height: 50%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .guns-gadget{
+       flex-direction: column;
+    }
+    body{
+        width: 100%;
+    }
+    img {
+        max-width: 100%;
     }
 }
