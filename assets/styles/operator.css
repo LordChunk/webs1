@@ -27,4 +27,7 @@
     img {
         max-width: 100%;
     }
+    #operator-foto{
+        height: 15em;
+    }
 }

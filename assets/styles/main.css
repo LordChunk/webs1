@@ -29,7 +29,7 @@ a:hover {
 
 .content-box {
     background: rgba(0, 0, 0, 0.08);
-    padding: 0 6% 1em 6%;
+    padding: 1em 6%;
     margin-bottom: 1em;
     border-radius: 5px;
 }
@@ -44,6 +44,11 @@ a:hover {
 }
 
 #website-content h1,
+#website-content h2,
+#website-content h3,
+#website-content h4,
+#website-content h5,
+#website-content h6,
 #website-content strong {
     color: #333;
 }

@@ -5,6 +5,9 @@
 header {
     background-color: red;
 }
+nav {
+    background-color: darkred;
+}
 
 #website-content {
     height: calc(100vh - 4em);
