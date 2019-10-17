@@ -25,7 +25,7 @@ body {
 
 .snatch-wrapper img {
     width: 100%;
-    /* animation: goIn 3.7s ease forwards; */
+    animation: goIn 3.7s ease forwards;
 }
 
 #again {
